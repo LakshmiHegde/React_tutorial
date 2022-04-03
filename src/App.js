@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import {Arrow} from "./Components/Arrowfun";
+import Createdcomp from "./Components/Createdcomp";
+import Classcomp from "./Components/Classcomp";
+import Props_example from "./Components/Props_example";
+import States from "./Components/States";
+import {ArrowFunWithProp} from "./Components/ArrowFunWithProp";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/*<Createdcomp />
+       <Arrow/>
+        <Classcomp/>
+        <Props_example name="lakshmi" age="24">
+            <p>This is lakshmi hegde</p>
+        </Props_example>
+
+        <Props_example name="bhumika" age="23">
+            <p>This is bhumika hegde</p>
+        </Props_example>*/}
+        <States/>
+        <ArrowFunWithProp name="lakshmi hegde"></ArrowFunWithProp>
     </div>
   );
 }
