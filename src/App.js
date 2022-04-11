@@ -6,7 +6,7 @@ import Classcomp from "./Components/Classcomp";
 import Props_example from "./Components/Props_example";
 import States from "./Components/States";
 import {ArrowFunWithProp} from "./Components/ArrowFunWithProp";
-
+import RenderList from "./Components/RenderList"
 function App() {
   return (
     <div className="App">
@@ -22,6 +22,7 @@ function App() {
         </Props_example>*/}
         <States/>
         <ArrowFunWithProp name="lakshmi hegde"></ArrowFunWithProp>
+        <RenderList/>
     </div>
   );
 }
