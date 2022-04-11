@@ -7,6 +7,8 @@ import Props_example from "./Components/Props_example";
 import States from "./Components/States";
 import {ArrowFunWithProp} from "./Components/ArrowFunWithProp";
 import RenderList from "./Components/RenderList"
+import Form from "./Components/Form";
+import {UseStateWithObj} from "./Components/UseStateWithObj";
 function App() {
   return (
     <div className="App">
@@ -19,10 +21,12 @@ function App() {
 
         <Props_example name="bhumika" age="23">
             <p>This is bhumika hegde</p>
-        </Props_example>*/}
+        </Props_example>
         <States/>
         <ArrowFunWithProp name="lakshmi hegde"></ArrowFunWithProp>
         <RenderList/>
+        <Form/>*/}
+        <UseStateWithObj/>
     </div>
   );
 }
